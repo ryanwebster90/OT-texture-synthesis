@@ -14,7 +14,7 @@ graphics card (Quaddro K2200).
 # Additional Links #
 
 * All images from [1] are taken from the (excellent) photography of flickr user [arbyreed](https://www.flickr.com/photos/19779889@N00/)
-* The cropped dataset can be found (here on google drive)[https://drive.google.com/drive/folders/0B6oh_CUacdkDSkR3cDYyZnBaRDA?usp=sharing]
+* The cropped dataset can be found here [arbyreed dataset](https://drive.google.com/drive/folders/0B6oh_CUacdkDSkR3cDYyZnBaRDA?usp=sharing)
 
 * If you'd like to use random convolutional networks, you'll need to add [autonn](https://github.com/vlfeat/autonn) to your path (there is no installation required).
 
