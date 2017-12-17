@@ -11,6 +11,8 @@ graphics card (Quaddro K2200).
 
 * To synthesize a texture, run setup.m then run demo_MRF_synthesis.m
 
+* Reproduce figures from [1] in create figures folder
+
 # Additional Links #
 
 * All images from [1] are taken from the (excellent) photography of flickr user [arbyreed](https://www.flickr.com/photos/19779889@N00/)
