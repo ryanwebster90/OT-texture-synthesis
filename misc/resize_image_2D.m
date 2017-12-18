@@ -1,4 +1,8 @@
-function im_out = resize_image_2D(im,new_size,use_imtb)
+function im_out = resize_image_2D(im,new_size)
+% "toolbox free" image resizing
+% also handles other datatypes, casting after resizing
+
+
 im0 = im;
 im = gather(im);
 if ndims(im) > 3 || ndims(im) <2
@@ -18,9 +22,10 @@ else
     n2 = new_size(2);
 end
 
+use_imtb = license('test','image_toolbox');
+
 %use image processing toolbox by default
-if nargin < 3 || use_imtb
-  
+if use_imtb
   im_out = imresize(im,[m2,n2],'method','lanczos3');
   im_out = cast(im_out,'like',im0);
 else
