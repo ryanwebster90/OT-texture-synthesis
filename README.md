@@ -16,7 +16,7 @@ A simple non-parametric texture synthesis algorithm using entropic OT, see
 * All images from [1] are taken from the photography of flickr user [arbyreed](https://www.flickr.com/photos/19779889@N00/)
 * The cropped dataset can be found here [arbyreed dataset](https://drive.google.com/drive/folders/0B6oh_CUacdkDSkR3cDYyZnBaRDA?usp=sharing)
 
-* If you'd like to use random convolutional networks, you'll need to add [autonn](https://github.com/vlfeat/autonn) to your path (there is no installation required).
+* If you'd like to use random convolutional networks, you'll need to the auto differentiation library [autonn](https://github.com/vlfeat/autonn) to your path. It is also in native MATLAB so no installation is required.
 
 * See also
 [Texture Optimization for Example-based Synthesis, Kwatra et al, 2005](https://www.cc.gatech.edu/cpl/projects/textureoptimization/TO-final.pdf)
