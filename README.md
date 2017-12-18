@@ -1,6 +1,7 @@
 # OT-texture-synthesis #
 
-A simple non-parametric texture synthesis algorithm using entropic OT, see
+A simple non-parametric texture synthesis algorithm using entropic OT, see 
+
 [1] [Innovative Non-parametric Texture Synthesis via Entropic Optimal Transport](https://drive.google.com/open?id=1DQrSUZm5JZVkIWdxFODY0VMnE1i3zsX4)
 
 # Notes #
