@@ -91,12 +91,18 @@ for scale = 1:opts.N_scales
         Y2_patch_inds = Y_patch_inds(m,:); % delete unselected patches
         Y2 = cast(Y2,'like',X);
         
+        tmp  = zeros(size(y),'like',y);
+        
         % re average both updates into image domain
-        xy = row2im_patch_sample_2D(y,Y2,Y2_patch_inds);
+        xy = row2im_patch_sample_2D(tmp,Y2,Y2_patch_inds);
         yx = row2im_patch_sample_2D(y,X(P(:),:),Y_patch_inds);
+        
+        m = xy(:)==0; % unmapped image regions of X->Y
         
         % convex comb. according to bs_alpha
         y = opts.bs_alpha*yx + (1-opts.bs_alpha)*xy;
+        
+        y(m) = yx(m); % take unmapped regions from yx.
         
       case 'NN' %nearest neighbor
         [Y,Y_patch_inds] = im2row_patch_sample_2D(y,opts.patchsize,opts.dataratio);
