@@ -1,6 +1,6 @@
 # OT-texture-synthesis #
 
-Included here are the non-parametric texture synthesis algorithms of Texture Optimization [2], The bidirectional similarity method [3] and a method using Sinkhorn's algorithm [4], discussed in more detail in [1]* NOTE: This work will be re purposed as a submission for [IPOL](ipol.im). Future changes will be more of a review of [2] and [3], with [1] presented as well, with less focus on the innovation capacity.
+Included here are the non-parametric texture synthesis algorithms of Texture Optimization [2], The bidirectional similarity method [3] and a method using Sinkhorn's algorithm [4], discussed in more detail in [1]* NOTE: This is a working copy.
 
 
 # Notes #
