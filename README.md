@@ -2,7 +2,7 @@
 
 Included here is a non-parametric texture synthesis algorithm desribed in [1], which finds permutations of patches using [2] below.
 
-[1] [Innovative Non-parametric Texture Synthesis via Patch Permutations] (https://arxiv.org/abs/1801.04619), Ryan Webster, 2018. 
+[1] [Innovative Non-parametric Texture Synthesis via Patch Permutations](https://arxiv.org/abs/1801.04619) , Ryan Webster, 2018. 
 
 # Notes #
 * All code is in native MATLAB for reproducability and was designed for fast and low memory execution.
