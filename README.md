@@ -19,5 +19,6 @@ Included here is a non-parametric texture synthesis algorithm desribed in [1], w
 
 * See also
 
-[2] [Sinkhorn Distances: Lightspeed Computation of Optimal Transportation Distances, Marco Cuturi, 2013](https://arxiv.org/abs/1306.0895).
+[2] [Sinkhorn Distances: Lightspeed Computation of Optimal Transportation Distances, Marco Cuturi, 2013](https://arxiv.org/abs/1306.0895). 
+
 [3] Summarizing Visual Data Using Bidirectional Similarity, Simakov et al, 2008
